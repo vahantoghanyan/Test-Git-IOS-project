@@ -16,6 +16,7 @@
 		FF9A36A11EF2BA44006B7D68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9A369F1EF2BA44006B7D68 /* LaunchScreen.storyboard */; };
 		FF9A36AC1EF2BA44006B7D68 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A36AB1EF2BA44006B7D68 /* Git_TestTests.m */; };
 		FF9A36B71EF2BA44006B7D68 /* Git_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A36B61EF2BA44006B7D68 /* Git_TestUITests.m */; };
+		FF9A36C91EF2C00F006B7D68 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9A36C81EF2C00F006B7D68 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FF9A36B21EF2BA44006B7D68 /* Git TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9A36B61EF2BA44006B7D68 /* Git_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestUITests.m; sourceTree = "<group>"; };
 		FF9A36B81EF2BA44006B7D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9A36C71EF2C00F006B7D68 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		FF9A36C81EF2C00F006B7D68 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		FF9A368D1EF2BA44006B7D68 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				FF9A36C71EF2C00F006B7D68 /* Test.h */,
+				FF9A36C81EF2C00F006B7D68 /* Test.m */,
 				FF9A36911EF2BA44006B7D68 /* AppDelegate.h */,
 				FF9A36921EF2BA44006B7D68 /* AppDelegate.m */,
 				FF9A36941EF2BA44006B7D68 /* ViewController.h */,
@@ -278,6 +283,7 @@
 			files = (
 				FF9A369C1EF2BA44006B7D68 /* Git_Test.xcdatamodeld in Sources */,
 				FF9A36961EF2BA44006B7D68 /* ViewController.m in Sources */,
+				FF9A36C91EF2C00F006B7D68 /* Test.m in Sources */,
 				FF9A36931EF2BA44006B7D68 /* AppDelegate.m in Sources */,
 				FF9A36901EF2BA44006B7D68 /* main.m in Sources */,
 			);
